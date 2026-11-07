@@ -1,0 +1,51 @@
+Name: Vaishnavi
+Date: 30-10-2026
+Project Name: Arbitrary Precision Calculator (APC)
+
+Arbitrary Precision Calculator (APC):
+
+An Arbitrary Precision Calculator is a calculator designed to perform arithmetic operations on very large numbers that cannot be handled by standard C data types such as int, long, and long long.
+
+The main objective of this project is to perform mathematical calculations on large numbers using a Singly Linked List for storing individual digits.
+
+Operations Supported:
+
+Addition: Adds two large numbers using digit-by-digit addition and carry propagation.
+
+Subtraction: Subtracts two large numbers using digit-by-digit subtraction and borrowing.
+
+Multiplication: Multiplies two large numbers using the multiplication algorithm and handles intermediate carries.
+
+Division: Divides two large numbers using the long division method and produces the integer quotient.
+
+Negative Number Support: Handles positive and negative operands for all four arithmetic operations.
+
+Implementation:
+
+C Programming: Used to implement the calculator and arithmetic operations.
+
+Singly Linked List: Each node stores one digit of the number.
+
+Dynamic Memory Allocation: Uses malloc() and free() to allocate and release memory dynamically.
+
+Modular Programming: Each arithmetic operation is implemented in a separate source file.
+
+Makefile: Used to compile and build the project.
+
+Project Files:
+
+main.c – Handles user input, operator selection and result display.
+
+apc.h – Contains structure definitions, macros and function declarations.
+
+common.c – Contains common linked-list operations such as insertion, comparison, printing and memory deallocation.
+
+addition.c – Implements addition of large numbers.
+
+subtraction.c – Implements subtraction of large numbers.
+
+multiplication.c – Implements multiplication of large numbers.
+
+division.c – Implements division of large numbers.
+
+makefile – Compiles all source files and generates the executable.
